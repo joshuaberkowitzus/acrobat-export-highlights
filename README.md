@@ -7,10 +7,10 @@ This script is designed to export annotations (highlights, underlines, squiggly,
 To use this script in Adobe Acrobat Pro, follow these steps:
 
 1. Open your PDF document in Adobe Acrobat Pro.
-2. Go to `Tools` > `JavaScript` > `Document JavaScripts`.
-3. Create a new script and paste the content of `script.js` into the editor.
+2. Go to `Action Wizard` or `Use guided actions` and creating a new `Custom Command` or by running the script directly in the console.
+3. Paste the content of `script.js` into the `Command Options` editor
 4. Save and close the editor.
-5. Run the script by going to `Tools` > `Action Wizard` and creating a new action or by running the script directly in the console.
+5. Run the custom command from the Custom Commands menu
 
 ## Script Details
 
@@ -28,6 +28,6 @@ The script performs the following actions:
 
 3. **Generating Report**:
    - Compiles the extracted text into a formatted report.
-   - Saves the report as a `.txt` file.
+   - Saves the report as a `Comments of 'DATE TIME'.txt` file attachment to the document attachments.
    - Displays the process duration and final message in the console.
    - Alerts the user with the number of comments detailed and attaches the report file.
