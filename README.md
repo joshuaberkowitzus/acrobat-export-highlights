@@ -7,7 +7,7 @@ This script is designed to export annotations (highlights, underlines, squiggly,
 To use this script in Adobe Acrobat Pro, follow these steps:
 
 1. Open your PDF document in Adobe Acrobat Pro.
-2. Go to `Action Wizard` or `Use guided actions` and creating a new `Custom Command` or by running the script directly in the console.
+2. Go to `Action Wizard` or `Use guided actions` and creating a new `Custom Command` and selecting `Execute Javascript`
 3. Paste the content of `script.js` into the `Command Options` editor
 4. Save and close the editor.
 5. Run the custom command from the Custom Commands menu
