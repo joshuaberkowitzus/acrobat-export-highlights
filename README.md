@@ -1,6 +1,6 @@
 # Acrobat Export Highlights Script
 
-This script is designed to export annotations (highlights, underlines, squiggly, strikeout, and redact) from a PDF document. It processes each annotation, extracts the relevant content, and generates a report.
+This script is designed to export annotations (highlights, underlines, squiggly, strikeout, and redact) from a PDF document. It processes each annotation, extracts the relevant content, and generates a txt file as an attachment to the document.
 
 ## Usage
 
@@ -31,3 +31,7 @@ The script performs the following actions:
    - Saves the report as a `Comments of 'DATE TIME'.txt` file attachment to the document attachments.
    - Displays the process duration and final message in the console.
    - Alerts the user with the number of comments detailed and attaches the report file.
+
+**Troubleshooting**
+   - Make sure you have Javascript enabled
+   - Make sure you have permissions to read and write to the document.
